@@ -1,0 +1,136 @@
+{
+    "nav": {
+        "apps": "Apper",
+        "appsProject": {
+            "project": "Prosjekt",
+            "dashboard": "Instrumentbord",
+            "projectList": "Prosjektliste",
+            "scrumBoard": "Scrum-brett",
+            "issue": "Problem"
+        },
+        "appsCrm": {
+            "crm": "CRM",
+            "dashboard": "Instrumentbord",
+            "calendar": "Kalender",
+            "customers": "Kunder",
+            "customerDetails": "Kundedetaljer",
+            "mail": "E-post"
+        },
+        "appsSales": {
+            "sales": "Netthandel",
+            "dashboard": "Instrumentbord",
+            "productList": "Produktliste",
+            "productEdit": "Rediger produkt",
+            "productNew": "Nytt produkt",
+            "orderList": "Ordreliste",
+            "orderDetails": "Ordredetaljer"
+        },
+        "appsCrypto": {
+            "crypto": "Krypto",
+            "dashboard": "Instrumentbord",
+            "portfolio": "Portefølje",
+            "market": "Marked",
+            "wallets": "Lommebøker"
+        },
+        "appsknowledgeBase": {
+            "knowledgeBase": "Kunnskapsbase",
+            "helpCenter": "Hjelpesenter",
+            "article": "Artikkel",
+            "manageArticles": "Administrer artikler",
+            "editArticle": "Rediger artikkel"
+        },
+        "appsAccount": {
+            "account": "Konto",
+            "settings": "Innstillinger",
+            "invoice": "Faktura",
+            "activityLog": "Aktivitetslogg",
+            "kycForm": "KYC-skjema"
+        },
+        "uiComponents": "UI-komponenter",
+        "uiComponentsCommon": {
+            "common": "Vanlig",
+            "button": "Knapp",
+            "typography": "Typografi",
+            "icons": "Ikoner"
+        },
+        "uiComponentsFeeback": {
+            "feedback": "Tilbakemelding",
+            "alert": "Varsel",
+            "dialog": "Dialog",
+            "drawer": "Skuff",
+            "progress": "Fremgang",
+            "skeleton": "Skjelett",
+            "spinner": "Spinner",
+            "toast": "Toast"
+        },
+        "uiComponentsDataDisplay": {
+            "dataDisplay": "Datavisning",
+            "avatar": "Avatar",
+            "badge": "Merke",
+            "calendar": "Kalender",
+            "cards": "Kort",
+            "table": "Tabell",
+            "tag": "Merke",
+            "timeline": "Tidslinje",
+            "tooltip": "Verktøytips"
+        },
+        "uiComponentsForms": {
+            "forms": "Skjemaer",
+            "checkbox": "Avmerkingsboks",
+            "datePicker": "Datovelger",
+            "formControl": "Skjemakontroll",
+            "input": "Inndata",
+            "inputGroup": "Inndatagruppe",
+            "radio": "Radioknapp",
+            "segment": "Segment",
+            "select": "Velger",
+            "switcher": "Bytter",
+            "timeInput": "Tidsinndata",
+            "upload": "Opplasting"
+        },
+        "uiComponentsNavigation": {
+            "navigation": "Navigasjon",
+            "dropdown": "Rullegardinmeny",
+            "menu": "Meny",
+            "pagination": "Paginering",
+            "steps": "Trinn",
+            "tabs": "Faner"
+        },
+        "uiComponentsGraph": {
+            "graph": "Graf",
+            "charts": "Diagrammer",
+            "maps": "Kart"
+        },
+        "pages": {
+            "pages": "Sider",
+            "welcome": "Velkommen",
+            "accessDenied": "Tilgang nektet"
+        },
+        "authentication": {
+            "authentication": "Autentisering",
+            "signIn": "Logg inn",
+            "signInSimple": "Enkel",
+            "signInSide": "Side",
+            "signInCover": "Omslag",
+            "signUp": "Registrer deg",
+            "signUpSimple": "Enkel",
+            "signUpSide": "Side",
+            "signUpCover": "Omslag",
+            "forgotPassword": "Glemt passord",
+            "forgotPasswordSimple": "Enkel",
+            "forgotPasswordSide": "Side",
+            "forgotPasswordCover": "Omslag",
+            "resetPassword": "Nullstill passord",
+            "resetPasswordSimple": "Enkel",
+            "resetPasswordSide": "Side",
+            "resetPasswordCover": "Omslag"
+        },
+        "docs": {
+            "guide": "Guide",
+            "documentation": "Dokumentasjon",
+            "sharedComponentDoc": "Delt komponent",
+            "utilsDoc": "Verktøy",
+            "changeLog": "Endringslogg"
+        }
+    }
+}
