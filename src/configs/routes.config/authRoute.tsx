@@ -16,7 +16,7 @@ const authRoute: Routes = [
     },
     {
         key: 'forgotPassword',
-        path: `/forgot-password/:aaaa`,
+        path: `/forgot-password`,
         component: lazy(() => import('@/views/auth/ForgotPassword')),
         authority: [],
     },

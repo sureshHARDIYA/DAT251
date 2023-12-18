@@ -1,6 +1,4 @@
 import Side from './Side'
-// import Cover from './Cover'
-// import Simple from './Simple'
 import View from '@/views'
 import { useAppSelector } from '@/store'
 import { LAYOUT_TYPE_BLANK } from '@/constants/theme.constant'

@@ -1,24 +1,16 @@
+import * as Yup from 'yup'
 import { useState } from 'react'
-import { FormItem, FormContainer } from '@/components/ui/Form'
+import type { AxiosError } from 'axios'
+import { Field, Form, Formik } from 'formik'
+
 import Input from '@/components/ui/Input'
-import Button from '@/components/ui/Button'
 import Alert from '@/components/ui/Alert'
+import Button from '@/components/ui/Button'
 import ActionLink from '@/components/shared/ActionLink'
 import { apiForgotPassword } from '@/services/AuthService'
+import { FormItem, FormContainer } from '@/components/ui/Form'
 import useTimeOutMessage from '@/utils/hooks/useTimeOutMessage'
-import { Field, Form, Formik } from 'formik'
-import * as Yup from 'yup'
-import type { CommonProps } from '@/@types/common'
-import type { AxiosError } from 'axios'
-
-interface ForgotPasswordFormProps extends CommonProps {
-    disableSubmit?: boolean
-    signInUrl?: string
-}
-
-type ForgotPasswordFormSchema = {
-    email: string
-}
+import { ForgotPasswordFormProps, ForgotPasswordFormSchema } from './types'
 
 const validationSchema = Yup.object().shape({
     email: Yup.string().required('Please enter your email'),

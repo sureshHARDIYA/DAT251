@@ -1,4 +1,6 @@
-import { apiSignIn, apiSignOut, apiSignUp } from '@/services/AuthService'
+import { useNavigate } from 'react-router-dom'
+
+import useQuery from './useQuery'
 import {
     setUser,
     signInSuccess,
@@ -8,9 +10,8 @@ import {
 } from '@/store'
 import appConfig from '@/configs/app.config'
 import { REDIRECT_URL_KEY } from '@/constants/app.constant'
-import { useNavigate } from 'react-router-dom'
-import useQuery from './useQuery'
 import type { SignInCredential, SignUpCredential } from '@/@types/auth'
+import { apiSignIn, apiSignOut, apiSignUp } from '@/services/AuthService'
 
 type Status = 'success' | 'failed'
 
@@ -50,6 +51,7 @@ function useAuth() {
                     )
                 }
                 const redirectUrl = query.get(REDIRECT_URL_KEY)
+
                 navigate(
                     redirectUrl ? redirectUrl : appConfig.authenticatedEntryPath
                 )

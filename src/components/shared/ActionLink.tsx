@@ -1,8 +1,9 @@
 import classNames from 'classnames'
-import useThemeClass from '@/utils/hooks/useThemeClass'
 import { Link } from 'react-router-dom'
-import type { CommonProps } from '@/@types/common'
 import type { ComponentPropsWithoutRef } from 'react'
+
+import type { CommonProps } from '@/@types/common'
+import useThemeClass from '@/utils/hooks/useThemeClass'
 
 interface ActionLink extends CommonProps, ComponentPropsWithoutRef<'a'> {
     themeColor?: boolean
