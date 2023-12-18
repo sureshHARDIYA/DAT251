@@ -1,4 +1,13 @@
 {
+    "profile": {
+        "profile": "Profile",
+        "accountSetting": "Account Settings",
+        "activityLog": "Activity Log",
+        "signOut": "Sign Out"
+    },
+    "apps": {
+        "copyright": "All rights reserved."
+    },
     "nav": {
         "apps": "Apps",
         "appsProject": {

@@ -1,4 +1,13 @@
 {
+    "profile": {
+        "profile": "Profil",
+        "accountSetting": "Kontoinnstillinger",
+        "activityLog": "Aktivitetsloggen",
+        "signOut": "Logg ut"
+    },
+    "apps": {
+        "copyright": "Alle rettigheter reservert."
+    },
     "nav": {
         "apps": "Apper",
         "appsProject": {

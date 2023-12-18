@@ -1,23 +1,27 @@
-import Avatar from '@/components/ui/Avatar'
-import Dropdown from '@/components/ui/Dropdown'
-import withHeaderItem from '@/utils/hoc/withHeaderItem'
-import useAuth from '@/utils/hooks/useAuth'
-import { useAppSelector } from '@/store'
-import { Link } from 'react-router-dom'
 import classNames from 'classnames'
-import { HiOutlineUser, HiOutlineCog, HiOutlineLogout } from 'react-icons/hi'
+import { Link } from 'react-router-dom'
 import { FiActivity } from 'react-icons/fi'
+import { Trans, useTranslation } from 'react-i18next'
+import { HiOutlineUser, HiOutlineCog, HiOutlineLogout } from 'react-icons/hi'
+
+import { useAppSelector } from '@/store'
+import Avatar from '@/components/ui/Avatar'
+import useAuth from '@/utils/hooks/useAuth'
+import Dropdown from '@/components/ui/Dropdown'
 import type { CommonProps } from '@/@types/common'
+import withHeaderItem from '@/utils/hoc/withHeaderItem'
 
 type DropdownList = {
     label: string
     path: string
     icon: JSX.Element
+    tkey: string
 }
 
 const dropdownItemList: DropdownList[] = [
     {
         label: 'Profile',
+        tkey: 'profile.profile',
         path: '/app/account/settings/profile',
         icon: <HiOutlineUser />,
     },
@@ -25,11 +29,13 @@ const dropdownItemList: DropdownList[] = [
         label: 'Account Setting',
         path: '/app/account/settings/profile',
         icon: <HiOutlineCog />,
+        tkey: 'profile.accountSetting',
     },
     {
         label: 'Activity Log',
         path: '/app/account/activity-log',
         icon: <FiActivity />,
+        tkey: 'profile.activityLog',
     },
 ]
 
@@ -37,6 +43,7 @@ const _UserDropdown = ({ className }: CommonProps) => {
     const { avatar, userName, authority, email } = useAppSelector(
         (state) => state.auth.user
     )
+    const { t } = useTranslation()
 
     const { signOut } = useAuth()
 
@@ -77,15 +84,15 @@ const _UserDropdown = ({ className }: CommonProps) => {
                         eventKey={item.label}
                         className="mb-1 px-0"
                     >
-                        <Link 
-                            className="flex h-full w-full px-2" 
+                        <Link
+                            className="flex h-full w-full px-2"
                             to={item.path}
                         >
                             <span className="flex gap-2 items-center w-full">
                                 <span className="text-xl opacity-50">
                                     {item.icon}
                                 </span>
-                                <span>{item.label}</span>
+                                <span>{t(item.tkey) || item.label}</span>
                             </span>
                         </Link>
                     </Dropdown.Item>
@@ -99,7 +106,9 @@ const _UserDropdown = ({ className }: CommonProps) => {
                     <span className="text-xl opacity-50">
                         <HiOutlineLogout />
                     </span>
-                    <span>Sign Out</span>
+                    <span>
+                        <Trans i18nKey="profile.signOut" default="Sign Out" />
+                    </span>
                 </Dropdown.Item>
             </Dropdown>
         </div>

@@ -68,8 +68,6 @@ const initialState: SalesDashboardState = {
     dashboardData: {},
 }
 
-console.log('initialState', initialState.startDate)
-
 const salesDashboardSlice = createSlice({
     name: `${SLICE_NAME}/state`,
     initialState,

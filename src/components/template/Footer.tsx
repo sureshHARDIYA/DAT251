@@ -1,4 +1,6 @@
 import classNames from 'classnames'
+import { Trans } from 'react-i18next'
+
 import Container from '@/components/shared/Container'
 import { APP_NAME } from '@/constants/app.constant'
 import { PAGE_CONTAINER_GUTTER_X } from '@/constants/theme.constant'
@@ -14,8 +16,11 @@ const FooterContent = () => {
         <div className="flex items-center justify-between flex-auto w-full">
             <span>
                 Copyright &copy; {`${new Date().getFullYear()}`}{' '}
-                <span className="font-semibold">{`${APP_NAME}`}</span> All
-                rights reserved.
+                <span className="font-semibold mr-2">{`${APP_NAME}`}</span>
+                <Trans
+                    i18nKey="apps.copyright"
+                    default="All rights reserved."
+                />
             </span>
             <div className="">
                 <a
