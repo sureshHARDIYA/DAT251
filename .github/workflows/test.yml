@@ -1,0 +1,36 @@
+name: Run Tests
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 14
+
+      - name: Install dependencies
+        run: yarn 
+
+      - name: Run tests
+        run: yarn test
+
+  prevent-merge:
+    runs-on: ubuntu-latest
+
+    needs: test
+
+    steps:
+      - name: Check test status
+        run: echo "Check test status"
+
+      # Add more steps to check test status and prevent merge if tests fail
