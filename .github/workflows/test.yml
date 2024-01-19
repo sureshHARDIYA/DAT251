@@ -3,7 +3,7 @@ name: Run Tests
 on:
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   test:
@@ -15,14 +15,12 @@ jobs:
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
-        with:
-          node-version: 14
 
       - name: Install dependencies
-        run: yarn 
+        run: npm install --legacy-peer-deps 
 
       - name: Run tests
-        run: yarn test
+        run: npm run test
 
   prevent-merge:
     runs-on: ubuntu-latest
