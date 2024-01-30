@@ -1,10 +1,12 @@
 {
-    "name": "Suresh Kumar Mukhiya",
+    "name": "Sunniva Storetvedt Lothe",
     "projectId": "000A",
-    "projectName": "My Supercool Project",
-    "projectDescription": "Some description",
-    "frontend": ["react", "redux", "graphQL"],
-    "backend": ["Kotline", "MySQL"],
+    "projectName": "Crib Hub",
+    "projectDescription": "App for people living in shared accommodation",
+    "frontend": ["react"],
+    "backend": ["SpringBoot", "Hibernate"],
     "repository": "https://github.com/sureshHARDIYA/dat251test",
-    "teamMembers": ["A", "B", "C"]
+    "teamMembers": ["Daniel James Mc Hugh", "Marius Lokøen Hatland", 
+                    "Mikkel Schøning Gunhildsbu", "Rita Haveland Borlaug",
+                    "Sunniva Storetvedt Lothe", "Thomas Thunes"]
 }
