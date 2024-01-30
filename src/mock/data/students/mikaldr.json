@@ -1,0 +1,10 @@
+{
+    "name": "Mikal Drivenes",
+    "projectId": "000A",
+    "projectName": "Unrated",
+    "projectDescription": "A rating app, in which you give different items a rating (Like those apps where you rate wine or something)",
+    "frontend": ["svelte", "TBD"],
+    "backend": ["TBD"],
+    "repository": ["https://github.com/Unrated-Limited-Unlimited/ua-backend","https://github.com/Unrated-Limited-Unlimited/ua-frontend"]
+    "teamMembers": ["Martin Tunge Sterri", "Thomas Sandvik Johannsen", "Vegard Dæmring", "Nils Michael Fitjar", "Helene Solhaug"]
+}
