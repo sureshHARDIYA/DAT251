@@ -1,6 +1,6 @@
 {
-    "name": "Suresh Kumar Mukhiya",
-    "projectId": "000A",
+    "name": "Lucas Mendez Fernandez",
+    "projectId": "030A",
     "projectName": "My Supercool Project",
     "projectDescription": "Some description",
     "frontend": ["react", "redux", "graphQL"],
