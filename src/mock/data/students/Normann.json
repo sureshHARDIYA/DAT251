@@ -1,0 +1,10 @@
+{
+  "name": "Andre Eriksen Normann",
+  "projectId": "000A",
+  "projectName": "My Supercool Project",
+  "projectDescription": "test",
+  "frontend": [""],
+  "backend": [""],
+  "repository": "https://github.com/andnor1/DAT251",
+  "teamMembers": ["Jacob", "kristoffer", "Nicolas", "Safiya", "Stian"]
+}
