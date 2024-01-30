@@ -1,6 +1,6 @@
 {
     "name": "Håvard",
-    "projectId": "000A",
+    "projectId": "Group C",
     "projectName": "My Supercool Project",
     "projectDescription": "Some description",
     "frontend": ["react", "redux", "graphQL"],
