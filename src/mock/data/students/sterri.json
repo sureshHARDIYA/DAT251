@@ -1,0 +1,10 @@
+{
+    "name": "Martin Tunge Sterri",
+    "projectId": "000B",
+    "projectName": "Unrated-Limited-Unlimited",
+    "projectDescription": "Some description",
+    "frontend": ["svelte"],
+    "backend": ["TBD"],
+    "repository": "https://github.com/orgs/Unrated-Limited-Unlimited/repositories",
+    "teamMembers": ["Helene Solhaug", "Mikal Drivenes", "Nils Michael Fitjar", "Thomas Sandvik Johansen", "Vegard Dæmring"]
+}
