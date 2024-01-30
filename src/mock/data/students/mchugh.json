@@ -1,0 +1,10 @@
+{
+    "name": "Daniel James McHugh",
+    "projectId": "000A",
+    "projectName": "CribHub",
+    "projectDescription": "Some description",
+    "frontend": ["", "", ""],
+    "backend": ["", ""],
+    "repository": "",
+    "teamMembers": ["Rita Haveland Borlaug", "Mikkel Schøning Gunhildsbu", "Marius Lokøen Hatland", "Sunniva Storetvedt Lothe", "Thomas Thunes"]
+}
