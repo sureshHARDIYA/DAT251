@@ -1,0 +1,10 @@
+{
+  "name": "Jonatan Valen",
+  "projectId": "000D",
+  "projectName": "Ecommerce store",
+  "projectDescription": "A website where users can buy and sell products.",
+  "frontend": ["react"],
+  "backend": ["Java", "Spring Boot", "MongoDB"],
+  "repository": "",
+  "teamMembers": ["Vegard Vasset", "Jacek Antoni Wegrzynowski", "Mathias Skauge Larsen", "Sebastian Rosnes Sørensen", "Sindre Eie Ledsaak"]
+}
