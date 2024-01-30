@@ -1,0 +1,9 @@
+{
+    "name": "Vegard Vasset",
+    "projectId": "A",
+    "projectName": "Ecommerce",
+    "projectDescription": "Website for selling stuff",
+    "frontend": ["react"],
+    "backend": ["Java", "SpringBoot"],
+    "teamMembers": ["Jonatan Valen", "Sindre Eie Ledsaak", "Jacek Antoni Wegrzynowski", "Mathias Skauge Larsen", "Sebastian Rosnes Sørensen"]
+}
