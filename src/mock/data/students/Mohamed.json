@@ -1,4 +1,10 @@
 {
-  name: "Mahmod Ahmed Mohamed",
-  projectID: "E"
+  "name": "Mahmod Ahmed Mohamed",
+  "projectId": "E",
+  "projectName": "Book Store",
+  "projectDescription": "Selling Books on the internet",
+  "frontend": ["", "", ""],
+  "backend": ["", ""],
+  "repository": "",
+  "teamMembers": ["Torje", "Stian", "Magnus", "Kjetil"]
 }
