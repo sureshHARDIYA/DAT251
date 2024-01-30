@@ -1,0 +1,10 @@
+{
+    "name": "Matěj Masař",
+    "projectId": "000A",
+    "projectName": "Travel web app",
+    "projectDescription": "Travel recommendation web app",
+    "frontend": ["html", "css", "js"],
+    "backend": ["Python", "MySQL"],
+    "repository": "",
+    "teamMembers": ["Alejandro Guerra Cortes", "Audun Wanvik Haugen", "Endre Sletnes", "Lucas Mendez Fernandez", "Matěj Masař", "Rashaad Wells Iversen"]
+}
