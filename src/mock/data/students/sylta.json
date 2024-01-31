@@ -1,0 +1,10 @@
+{
+    "name": "Torje Gloppholm Sylta",
+    "projectId": "000E",
+    "projectName": "Online bookstore",
+    "projectDescription": "Create a online book store where people can buy books",
+    "frontend": ["react"],
+    "backend": ["Java", "C#"],
+    "repository": "",
+    "teamMembers": ["Kjetil Andre Søvdnes Berg", "Stian Aas Trohaug", "Magnus Lillerønning Aune", "Mahmod Ahmed Mohamed"]
+}
