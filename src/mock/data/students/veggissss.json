@@ -1,0 +1,10 @@
+{
+    "name": "Vegard Dæmring",
+    "projectId": "000B",
+    "projectName": "Unrated Limited Unlimited",
+    "projectDescription": "Some description",
+    "frontend": ["svelte", "redux", "graphQL"],
+    "backend": ["rust"],
+    "repository": ["https://github.com/Unrated-Limited-Unlimited/ua-frontend", "https://github.com/Unrated-Limited-Unlimited/ua-backend"],
+    "teamMembers": ["Martin Tunge Sterri", "Thomas Sandvik Johannsen", "Vegard Dæmring", "Nils Michael Fitjar", "Helene Solhaug"]
+}
