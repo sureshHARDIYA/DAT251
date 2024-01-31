@@ -1,0 +1,10 @@
+{
+    "name": "Kjetil André Søvdsnes Berg",
+    "projectId": "000A",
+    "projectName": "Bookstore E-commerce",
+    "projectDescription": "Some clowns try and make a web store",
+    "frontend": ["react"],
+    "backend": ["Nodejs", "To be considered..."],
+    "repository": "NONE YET",
+    "teamMembers": ["Kjetil André Søvdsnes Berg", "Magnus Lillerønning Aune", "Mahmod Ahmed Mohamed", "Stian Aas Trohaug", "Torje Gloppholm Sylta"]
+}
