@@ -1,0 +1,12 @@
+{
+    "name": "Sunniva Storetvedt Lothe",
+    "projectId": "000A",
+    "projectName": "Crib Hub",
+    "projectDescription": "App for people living in shared accommodation",
+    "frontend": ["react"],
+    "backend": ["SpringBoot", "Hibernate"],
+    "repository": "https://github.com/sureshHARDIYA/dat251test",
+    "teamMembers": ["Daniel James Mc Hugh", "Marius Lokøen Hatland", 
+                    "Mikkel Schøning Gunhildsbu", "Rita Haveland Borlaug",
+                    "Sunniva Storetvedt Lothe", "Thomas Thunes"]
+}
