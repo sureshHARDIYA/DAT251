@@ -1,0 +1,10 @@
+{
+    "name": "Thomas Sandvik Johansen",
+    "projectId": "6969",
+    "projectName": "Unrated",
+    "projectDescription": "Application for ratin various products",
+    "frontend": ["svelte"],
+    "backend": [""],
+    "repository": "",
+    "teamMembers": ["Mikal Drivenes", "Nils Michael Fitjar", "Helene Solhaug", "Martin Tunge Sterri", "Vegard Dæmring"]
+}

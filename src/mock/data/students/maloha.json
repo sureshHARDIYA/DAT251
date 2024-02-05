@@ -1,0 +1,10 @@
+{
+    "name": "Marius Hatland",
+    "projectId": "000A",
+    "projectName": "Crib hub",
+    "projectDescription": "Application for people living in shared accommodation",
+    "frontend": ["react"],
+    "backend": ["Java", "SpringBoot", "H2"],
+    "repository": "*",
+    "teamMembers": ["Daniel", "Mikkel", "Thomas", "Sunniva", "Rita"]
+}

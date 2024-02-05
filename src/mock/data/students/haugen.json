@@ -1,0 +1,10 @@
+{
+  "name": "Audun Wanvik Haugen",
+  "projectId": "F",
+  "projectName": "My Supercool Project",
+  "projectDescription": "Travel helper",
+  "frontend": "",
+  "backend": ["Python", "MongoDB"],
+  "repository": "",
+  "teamMembers": ["Endre Sletnes", "Rashaad Wells Iversen", "Matěj Masař", "Lucas Mendez Fernandez", "Alejandro Guerra Cortes"]
+}
