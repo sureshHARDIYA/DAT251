@@ -1,0 +1,10 @@
+{
+    "name": "Håvard Bydall",
+    "projectId": "Group C",
+    "projectName": "Shopping List APP",
+    "projectDescription": "Finding the nearest and cheapest store for your products",
+    "frontend": ["vue.js"],
+    "backend": ["Spring Boot"],
+    "repository": "NONE YET",
+    "teamMembers": ["Håvard Bydall", "Belmin Husanovic", "Eirik Måseidvåg", "Ingvild Tveit Sandberg", "Kristian Emil Takvam", "Pål Hegrenes Vindenes"]
+}
