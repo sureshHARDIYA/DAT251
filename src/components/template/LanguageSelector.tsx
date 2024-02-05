@@ -29,7 +29,10 @@ const _LanguageSelector = ({ className }: CommonProps) => {
     }, [locale])
 
     const selectedLanguage = (
-        <div className={classNames(className, 'flex items-center')}>
+        <div
+            className={classNames(className, 'flex items-center')}
+            data-cy="language-selector"
+        >
             {loading ? (
                 <Spinner size={20} />
             ) : (

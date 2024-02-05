@@ -54,7 +54,9 @@ const _UserDropdown = ({ className }: CommonProps) => {
                 <div className="text-xs capitalize">
                     {authority?.[0] || 'guest'}
                 </div>
-                <div className="font-bold">{userName}</div>
+                <div className="font-bold" data-cy="header-username">
+                    {userName}
+                </div>
             </div>
         </div>
     )

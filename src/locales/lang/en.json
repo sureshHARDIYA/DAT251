@@ -28,6 +28,8 @@
         "appsSales": {
             "sales": "Ecommerce",
             "dashboard": "Dashboard",
+            "title": "Sales Overview",
+            "subtitle": "View your current sales & summary",
             "productList": "Product List",
             "productEdit": "Product Edit",
             "productNew": "New Product",

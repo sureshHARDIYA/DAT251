@@ -28,6 +28,8 @@
         "appsSales": {
             "sales": "Netthandel",
             "dashboard": "Instrumentbord",
+            "title": "Salgsoversikt",
+            "subtitle": "Se dine nåværende salg og oppsummering",
             "productList": "Produktliste",
             "productEdit": "Rediger produkt",
             "productNew": "Nytt produkt",
